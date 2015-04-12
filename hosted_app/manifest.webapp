@@ -5,6 +5,8 @@
     "icons": {
         "128": "/images/icon.png"
     },
-    "developer": "Felix E. Klee",
+    "developer": {
+        "name": "Felix E. Klee"
+    },
     "default_locale": "en"
 }

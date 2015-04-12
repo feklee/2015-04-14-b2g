@@ -1,5 +1,5 @@
 {
-    "name": "My hosted app",
+    "name": "Hosted app",
     "description": "Simple hosted app demo.",
     "launch_path": "/app.html",
     "icons": {

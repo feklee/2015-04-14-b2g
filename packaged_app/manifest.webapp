@@ -1,5 +1,5 @@
 {
-    "name": "My packaged app",
+    "name": "Packaged app",
     "description": "Simple packaged app demo.",
     "launch_path": "/app.html",
     "icons": {

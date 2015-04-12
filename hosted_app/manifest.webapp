@@ -3,7 +3,7 @@
     "description": "Simple hosted app, just for demonstration.",
     "launch_path": "/app.html",
     "icons": {
-        "128": "/images/icon.png",
+        "128": "/images/icon.png"
     },
     "developer": "Felix E. Klee",
     "default_locale": "en"

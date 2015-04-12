@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+# My app v1.0.0
+
+CACHE:
+app.css
+app.html
+icon.png
+
+NETWORK:
+*

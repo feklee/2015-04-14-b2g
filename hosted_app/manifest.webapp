@@ -1,7 +1,7 @@
 {
     "name": "My app",
     "description": "Simple hosted app, just for demonstration.",
-    "launch_path": "app.html",
+    "launch_path": "/app.html",
     "icons": {
         "128": "icon.png"
     },

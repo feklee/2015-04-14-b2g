@@ -1,0 +1,18 @@
+/*
+
+Color style guide:
+
+<https://www.mozilla.org/en-US/styleguide/identity/firefoxos/color/>
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    background: linear-gradient(to bottom, #ff9500 0%, #e66000 100%);
+}

@@ -1,9 +1,9 @@
 {
     "name": "My app",
     "description": "Simple hosted app, just for demonstration.",
-    "launch_path": "/app.html",
+    "launch_path": "app.html",
     "icons": {
-        "128": "/images/icon.png"
+        "128": "icon.png"
     },
     "developer": {
         "name": "Felix E. Klee"

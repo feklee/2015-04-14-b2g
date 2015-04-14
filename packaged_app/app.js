@@ -3,19 +3,21 @@
 (function () {
     'use strict';
 
-    var greeting, addGreeting, addGreetings;
+    var mcc, greeting, addGreeting, addGreetings;
+
+    // MCC = Mobile Country Code
+    mcc = function (connection) {
+        var network = connection.lastKnownHomeNetwork, codes;
+        console.log(network);
+        codes = network.split('-');
+        return parseInt(codes[0], 10);
+    };
 
     greeting = function (connection) {
-        var network = connection.lastKnownHomeNetwork,
-            codes = network.split('-'),
-            mcc = codes[0]; // mobile country code
-
-        console.log(network);
-
-        switch (mcc) {
-        case '214':
+        switch (mcc(connection)) {
+        case 214:
             return '¡Hola mundo!';
-        case '262':
+        case 262:
             return 'Hallo Welt!';
         default:
             return 'Hello world!';
